@@ -1,5 +1,4 @@
 import './App.css'
-import CursorLight from './components/CursorLight'
 import Navigation from './components/Navigation'
 import Header from './components/Header'
 import Skills from './components/Skills'
@@ -11,7 +10,6 @@ import portfolioData from './data/source.json'
 function App() {
   return (
     <>
-      <CursorLight />
       <Navigation />
       <main>
         <section id="home">
