@@ -1,4 +1,6 @@
 import './Experience.css';
+import Lottie from 'lottie-react';
+import programmingAnimation from '../assets/Programming.json';
 
 const Experience = ({ workExperience, internships }) => {
   const allExperience = [...workExperience, ...internships];
@@ -11,6 +13,19 @@ const Experience = ({ workExperience, internships }) => {
           {allExperience.map((exp, index) => (
             <div key={index} className="timeline-item">
               <div className="timeline-marker"></div>
+              
+              {/* Show animation on right side when card is on left (odd items) */}
+              {index % 2 === 0 && (
+                <div className="lottie-container lottie-right">
+                  <Lottie 
+                    animationData={programmingAnimation}
+                    loop={true}
+                    autoplay={true}
+                    className="lottie-animation"
+                  />
+                </div>
+              )}
+              
               <div className="experience-card">
                 <div className="experience-header">
                   <h3 className="position">{exp.position}</h3>
@@ -27,6 +42,18 @@ const Experience = ({ workExperience, internships }) => {
                   ))}
                 </ul>
               </div>
+              
+              {/* Show animation on left side when card is on right (even items) */}
+              {index % 2 === 1 && (
+                <div className="lottie-container lottie-left">
+                  <Lottie 
+                    animationData={programmingAnimation}
+                    loop={true}
+                    autoplay={true}
+                    className="lottie-animation"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>

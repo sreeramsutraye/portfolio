@@ -16,7 +16,7 @@
 
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -35,6 +35,46 @@
   position: relative;
   margin-bottom: 4rem;
   width: 100%;
+}
+
+/* Lottie container positioning */
+.lottie-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 450px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.lottie-container.lottie-right {
+  right: 2%;
+}
+
+.lottie-container.lottie-left {
+  left: 2%;
+}
+
+.lottie-animation {
+  width: 500px;
+  height: 500px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.lottie-animation:hover {
+  transform: scale(1.1);
+}
+
+/* Mirror the left side animations */
+.lottie-container.lottie-left .lottie-animation {
+  transform: scaleX(-1);
+}
+
+.lottie-container.lottie-left .lottie-animation:hover {
+  transform: scaleX(-1) scale(1.1);
 }
 
 .timeline-item:nth-child(odd) .experience-card {
@@ -158,6 +198,10 @@
 @media (max-width: 768px) {
   .experience {
     padding: 4rem 0;
+  }
+  
+  .lottie-container {
+    display: none;
   }
   
   .timeline::before {

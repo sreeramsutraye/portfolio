@@ -37,6 +37,11 @@
   background-clip: text;
   letter-spacing: -2px;
   animation: fadeInUp 1s ease-out;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.name:hover {
+  transform: scale(1.05);
 }
 
 .title {
