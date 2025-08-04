@@ -24,7 +24,7 @@ const Navigation = () => {
     <nav className="navigation">
       <div className="nav-container">
         <div className="nav-brand">
-          <span className="nav-logo">S</span>
+          <span className="nav-logo" onClick={() => scrollToSection("#home")}>S</span>
         </div>
         
         <button 

@@ -65,7 +65,23 @@
 }
 
 .category-icon {
-  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #6366f1;
+  transition: all 0.3s ease;
+}
+
+.category-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.skill-category:hover .category-icon {
+  color: #8b5cf6;
+  transform: scale(1.1);
 }
 
 .category-title {

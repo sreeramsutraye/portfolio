@@ -56,7 +56,17 @@
 }
 
 .location-icon {
-  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #6366f1;
+}
+
+.location-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .location-text {
