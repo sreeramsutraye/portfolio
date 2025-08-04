@@ -1,0 +1,87 @@
+{
+  "personalInfo": {
+    "name": "Sreeram",
+    "title": "Python Full Stack Developer",
+    "summary": "Full Stack Developer with over 4.5 years of experience, including full-time roles at Gramener, Gloroots and NPCI, and an internship at Viniculum. Proven track record in developing robust and scalable web applications, optimizing performance, and delivering high-quality, maintainable code. Highly skilled in teamwork and complex problem resolution, dedicated to continuous learning and innovation in the field of software development. Experienced in taking ownership of products, resolving critical bugs, and implementing new features to meet project deadlines and business goals."
+  },
+  "skills": {
+    "programming": ["Python"],
+    "frameworks": ["Django", "FastAPI"],
+    "databases": ["PostgreSQL", "MongoDB", "Clickhouse"],
+    "frontend": ["JavaScript", "ReactJS", "jQuery", "HTML & CSS"],
+    "devops": ["Docker", "Kubernetes"],
+    "tools": ["Git Version Control", "GitHub Copilot", "ChatGPT"],
+    "concepts": ["System Design"],
+    "softSkills": ["Problem-solving", "Adaptability", "Project Management", "Stakeholder Management"]
+  },
+  "workExperience": [
+    {
+      "position": "Senior Data Science Engineer",
+      "company": "Gramener",
+      "duration": "08/2024 - Present",
+      "responsibilities": [
+        "Led backend development for a large-scale, two-year-old data science project which detects defects in semiconductor chips for our esteemed client Applied Materials.",
+        "Refactored and optimized legacy Python codebase, reducing data processing time and significantly lowering server resource consumption, which improved overall application performance and scalability.",
+        "Collaborated with cross-functional teams to design and implement backend architectures for 2 Generative AI POCs, and enabling seamless integration of advanced AI capabilities.",
+        "Conducted over 100 L1 technical interviews for Python backend roles, contributing to the recruitment and onboarding of high-quality talent."
+      ]
+    },
+    {
+      "position": "Software Development Engineer",
+      "company": "Gloroots",
+      "duration": "08/2023 - 08/2024",
+      "responsibilities": [
+        "Developed a comprehensive web application for managing 100's of employers, employees, contractors, and partner entities.",
+        "Ensured robust performance and seamless user experience by reducing server response time by 30% through optimized database queries.",
+        "Implemented Amplitude and Hotjar to analyse user behavior and identify drop-off points.",
+        "Designed a database schema that improved query efficiency and data organization, resulting in 30% faster data retrieval and streamlined data management."
+      ]
+    },
+    {
+      "position": "Associate AI Product",
+      "company": "National Payments Corporation of India (NPCI)",
+      "duration": "08/2021 - 08/2023",
+      "responsibilities": [
+        "Pioneered an AI-driven Online Response Management application for handling customer queries on social media platforms, reducing response time close to 20 seconds and manual intervention by 90%.",
+        "Designed and implemented a WhatsApp Bot, which helped customers discover RuPay offers, leading to a 50% increase in offers redemption.",
+        "Architected three full-stack applications using a diverse tech stack, and took ownership.",
+        "Managed code deployment using Docker and Kubernetes, ensuring product launch two months ahead of schedule."
+      ]
+    }
+  ],
+  "internships": [
+    {
+      "position": "Developer Intern",
+      "company": "Viniculum Solutions",
+      "duration": "01/2021 - 07/2021",
+      "responsibilities": [
+        "Conducted research and development for finding complementary technologies and tools.",
+        "Resolved over 50 bugs and implemented 20 new features in existing company software."
+      ]
+    }
+  ],
+  "achievements": [
+    "Achieved recognition for orchestrating the successful delivery of ORM Automation in NPCI for optimizing workflows and reducing manual intervention by 90%, significantly enhancing operational efficiency.",
+    "Solved more than 100 coding challenges in LeetCode platform.",
+    "Received 5 stars in Problem-Solving of Hacker Rank."
+  ],
+  "education": [
+    {
+      "degree": "B.Tech (hons) in Computer Science",
+      "institution": "Lovely Professional University, Punjab",
+      "duration": "08/2017 - 05/2021"
+    },
+    {
+      "degree": "XII (BIEAP)",
+      "institution": "Sri Chaitanya Junior College, Vijayawada",
+      "duration": "06/2015 - 05/2017"
+    }
+  ],
+  "contact": {
+    "github": "https://github.com/sreeramsutraye",
+    "linkedin": "https://www.linkedin.com/in/sreeramsutraye/",
+    "phone": "9652568259",
+    "email": "sreeramsutraye@gmail.com",
+    "location": "Bengaluru, India"
+  }
+}

@@ -1,0 +1,145 @@
+.contact {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #16213e 0%, #0f0f23 100%);
+  position: relative;
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #6366f1 50%, transparent 100%);
+}
+
+.section-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #ffffff;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: #6366f1;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-info {
+  padding: 2rem 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.location-icon {
+  font-size: 1.5rem;
+}
+
+.location-text {
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+.contact-description {
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: rgba(26, 26, 46, 0.5);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.contact-link:hover {
+  border-color: rgba(99, 102, 241, 0.5);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.1);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contact-platform {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact-label {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem 0;
+  }
+  
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+  
+  .contact-info {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .location {
+    justify-content: center;
+  }
+  
+  .contact-link {
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+}
