@@ -9,7 +9,8 @@ const Navigation = () => {
     { href: '#skills', label: 'Skills' },
     { href: '#experience', label: 'Experience' },
     { href: '#achievements', label: 'Achievements' },
-    { href: '#contact', label: 'Contact' }
+    { href: '#contact', label: 'Contact' },
+    { href: '#blogs', label: 'Blogs'}
   ];
 
   const scrollToSection = (href) => {

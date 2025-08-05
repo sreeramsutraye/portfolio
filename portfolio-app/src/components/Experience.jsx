@@ -1,9 +1,20 @@
 import './Experience.css';
 import Lottie from 'lottie-react';
 import programmingAnimation from '../assets/Programming.json';
+import designerAnimation from '../assets/Designer.json';
+import programmingAnimation2 from '../assets/ProgrammingAnimation.json';
+import socialMediaAnimation from '../assets/Internship.json';
 
 const Experience = ({ workExperience, internships }) => {
   const allExperience = [...workExperience, ...internships];
+  
+  // Array of animations to use for each experience
+  const animations = [
+    programmingAnimation,
+    designerAnimation,
+    programmingAnimation2,
+    socialMediaAnimation
+  ];
 
   return (
     <section className="experience" id="experience">
@@ -18,7 +29,7 @@ const Experience = ({ workExperience, internships }) => {
               {index % 2 === 0 && (
                 <div className="lottie-container lottie-right">
                   <Lottie 
-                    animationData={programmingAnimation}
+                    animationData={animations[index % animations.length]}
                     loop={true}
                     autoplay={true}
                     className="lottie-animation"
@@ -47,7 +58,7 @@ const Experience = ({ workExperience, internships }) => {
               {index % 2 === 1 && (
                 <div className="lottie-container lottie-left">
                   <Lottie 
-                    animationData={programmingAnimation}
+                    animationData={animations[index % animations.length]}
                     loop={true}
                     autoplay={true}
                     className="lottie-animation"

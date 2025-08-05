@@ -2,17 +2,15 @@
   "personalInfo": {
     "name": "Sreeram Sutraye",
     "title": "Python Full Stack Developer",
-    "summary": "Full Stack Developer with over 4.5 years of experience, including full-time roles at Gramener, Gloroots and NPCI, and an internship at Viniculum. Proven track record in developing robust and scalable web applications, optimizing performance, and delivering high-quality, maintainable code. Highly skilled in teamwork and complex problem resolution, dedicated to continuous learning and innovation in the field of software development. Experienced in taking ownership of products, resolving critical bugs, and implementing new features to meet project deadlines and business goals."
+    "summary": "Full Stack Developer with 4.5+ years of experience at Gramener, Gloroots, and NPCI, specializing in building robust, scalable web applications. Proven ability to optimize performance, resolve complex problems, and deliver high-quality, maintainable code. Experienced in product ownership, bug resolution, and feature implementation to meet business goals."
   },
   "skills": {
-    "programming": ["Python"],
-    "frameworks": ["Django", "FastAPI"],
+    "programming": ["Python", "JavaScript"],
+    "frameworks": ["Django", "FastAPI", "ReactJS", "jQuery"],
     "databases": ["PostgreSQL", "MongoDB", "Clickhouse"],
-    "frontend": ["JavaScript", "ReactJS", "jQuery", "HTML & CSS"],
-    "devops": ["Docker", "Kubernetes"],
+    "devops": ["Docker", "Kubernetes", "AWS", "Jenkins"],
     "tools": ["Git Version Control", "GitHub Copilot", "ChatGPT"],
-    "concepts": ["System Design"],
-    "softSkills": ["Problem-solving", "Adaptability", "Project Management", "Stakeholder Management"]
+    "concepts": ["System Design", "Prompt Engineering"]
   },
   "workExperience": [
     {
@@ -20,21 +18,21 @@
       "company": "Gramener",
       "duration": "08/2024 - Present",
       "responsibilities": [
-        "Led backend development for a large-scale, two-year-old data science project which detects defects in semiconductor chips for our esteemed client Applied Materials.",
-        "Refactored and optimized legacy Python codebase, reducing data processing time and significantly lowering server resource consumption, which improved overall application performance and scalability.",
-        "Collaborated with cross-functional teams to design and implement backend architectures for 2 Generative AI POCs, and enabling seamless integration of advanced AI capabilities.",
-        "Conducted over 100 L1 technical interviews for Python backend roles, contributing to the recruitment and onboarding of high-quality talent."
+        "Led backend development for a major data science project detecting semiconductor chip defects for Applied Materials.",
+        "Refactored legacy Python code, reducing data processing time and server usage, boosting performance and scalability.",
+        "Designed and implemented backend for 2 Generative AI POCs, enabling advanced AI integration.",
+        "Conducted 100+ L1 technical interviews for Python backend roles, aiding recruitment."
       ]
     },
     {
       "position": "Software Development Engineer",
-      "company": "Gloroots",
+      "company": "Gloroots (Zemploy India Private Limited)",
       "duration": "08/2023 - 08/2024",
       "responsibilities": [
-        "Developed a comprehensive web application for managing 100's of employers, employees, contractors, and partner entities.",
-        "Ensured robust performance and seamless user experience by reducing server response time by 30% through optimized database queries.",
-        "Implemented Amplitude and Hotjar to analyse user behavior and identify drop-off points.",
-        "Designed a database schema that improved query efficiency and data organization, resulting in 30% faster data retrieval and streamlined data management."
+        "Built a web app to manage hundreds of employers, employees, contractors, and partners.",
+        "Optimized database queries, reducing server response time by 30%.",
+        "Integrated Amplitude and Hotjar for user behavior analysis and drop-off detection.",
+        "Redesigned database schema for 30% faster data retrieval and better data management."
       ]
     },
     {
@@ -42,10 +40,10 @@
       "company": "National Payments Corporation of India (NPCI)",
       "duration": "08/2021 - 08/2023",
       "responsibilities": [
-        "Pioneered an AI-driven Online Response Management application for handling customer queries on social media platforms, reducing response time close to 20 seconds and manual intervention by 90%.",
-        "Designed and implemented a WhatsApp Bot, which helped customers discover RuPay offers, leading to a 50% increase in offers redemption.",
-        "Architected three full-stack applications using a diverse tech stack, and took ownership.",
-        "Managed code deployment using Docker and Kubernetes, ensuring product launch two months ahead of schedule."
+        "Developed an AI-powered Online Response Management app, cutting response time to 20 seconds and reducing manual work by 90%.",
+        "Built a WhatsApp Bot for RuPay offers, increasing offer redemptions by 50%.",
+        "Led architecture and ownership of three full-stack apps using diverse tech stacks.",
+        "Deployed products with Docker and Kubernetes, launching two months early."
       ]
     }
   ],
